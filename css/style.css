@@ -69,5 +69,24 @@ margin-left: auto;
 }
 
 section {
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
 
+.videoContainer {
+    width: 45%;
+    height: 100%;
+}
+
+.video {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 20px;
+}
+
+.agenda {
+    width: 45%;
+    height: 100%;
 }

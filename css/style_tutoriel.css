@@ -3,6 +3,15 @@ section{
     flex-direction: row;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .videoContainer_tuto{
     height: 100%;
     width: 70%;
@@ -12,7 +21,7 @@ section{
 
 
 
-.video_miniature{
+.video_all{
     height: 100%;
     width: 35%;
     display: flex;
@@ -20,7 +29,7 @@ section{
     align-items: center;
 }
 
-.video_miniature h1{
+.video_all h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
@@ -28,12 +37,40 @@ section{
     color: #FFF;
 }
 
-.video_miniature img{
+.video_all img{
     height: 150px;
+    margin-bottom: 10px;
+    z-index: 0;
 }
 
-.video_miniature img{
-    margin-bottom: 10px;
+.video_miniature .mask{
+    position: absolute;
+    opacity: 0;
+    margin-top: -162px;
+    background-color: rgba(58, 1, 132, 0.44);
+    transition: all 0.5s ease-in-out;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.video_miniature:hover .mask{
+    opacity: 1;
+  
+}
+
+.video_miniature:visited .mask{
+    text-decoration: none;
+}
+
+.video_miniature .fa-3x{
+    text-align: center;
+    color: aqua;
+    width: 150px;
+    
+    
 }
 
 

@@ -1,0 +1,29 @@
+.title{
+    background-color: aliceblue;
+    width:250px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.section{
+    width: 75vw;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.description_contact{
+    width: 40%;
+    height: 150px;
+    color: aliceblue;
+    background-color: lightblue;
+    
+    
+}
+
+input{
+    width: 150px;
+}

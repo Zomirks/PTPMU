@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #444445;
+    background-color: #FFF;
     display: flex;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -21,40 +24,70 @@ ul {
     flex-direction: column;
     height: 300px;
     margin-top: 20vh;
-    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
     justify-content: space-around;
     width: 100%;
 }
 
+
+
 li a {
-    background-color: aliceblue;
-    color: black;
+    
+    color: #FFF;
     text-decoration: none;
     width: 200px;
     height: 50px;
     display: block;
     line-height: 50px;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
-.rondNoir {
-    margin-top: 12.5px;
+/************** COULEUR DU MENU ****************/
+
+li a.titre_menu_accueil{
+    background-color: #9bd9db;
+}
+
+li a.titre_menu_actualite{
+    background-color: #ba7af5;
+}
+
+li a.titre_menu_vid{
+    background-color: #4f6fab;
+}
+
+li a.titre_menu_contact{
+    background-color: #ffaf5a;
+}
+
+
+
+.logo{
+    background-image: url(../img/O.png);
+    width: 30px;
+    height: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    float: left;
-    height: 25px;
-    width: 25px;
-    background-color: black;
-    border-radius: 50%;
+    margin-top: 5px;
+    float:left;
+    background-size: cover;
 }
 
-.active {
-    background-color: crimson;
+
+
+
+.active{
+    width: 250px;
+    
+}
+
+.logo_active{
+    margin-right: 100px;
 }
 
 .titrePage {
     display: block;
-    background-color: aliceblue;
+    background-color: #c9a454;
     width: 300px;
     height: 75px;
     margin-left: auto;
@@ -63,11 +96,11 @@ li a {
     font-size: 35pt;
 }
 
-.titrePage .rondNoir {
+.titrePage .logo {
     margin: 0;
-    height: 40px;
-    width: 40px;
-    margin-top: 17.5px;
+    height: 60px;
+    width: 50px;
+    margin-top: 8px;
     margin-left: 20px;
     margin-right: 40px;
 }

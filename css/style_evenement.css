@@ -4,7 +4,7 @@ body{
 
 .titrePage {
     display: block;
-    background-color: aliceblue;
+    background-color: #c9a454;
     width: 300px;
     height: 75px;
     margin-left: auto;
@@ -13,14 +13,15 @@ body{
     font-size: 35pt;
 }
 
-.titrePage .rondNoir {
+.titrePage .logo {
     margin: 0;
-    height: 40px;
-    width: 40px;
-    margin-top: 17.5px;
+    height: 60px;
+    width: 50px;
+    margin-top: 8px;
     margin-left: 20px;
     margin-right: 40px;
 }
+
 
 
 .titrePage h1{
@@ -28,7 +29,8 @@ body{
 }
 
 section{
-    width: 60vw;
+    width: 88%;
+    
     display: flex;
     flex-direction: row;
     margin-left: 0;
@@ -43,8 +45,29 @@ section{
     width: 100%;
    
 }
-.event img{
-    height: 100%;
-    width: 95%;
-    
+
+.event{
+    position: relative;
 }
+
+.event h2{
+    position: absolute;
+    color: #FFF;
+    width: 90%;
+    height: 100px;
+    background: rgba(0,0,0,0.7);
+    margin-top: -50px;
+    transition: 0.5s;
+}
+
+.event:hover h2{
+    transition: 0.5s;
+    transform: translateY(-50px);
+}
+
+.event img{
+    
+    height: 100%;
+    width: 90%;
+}
+

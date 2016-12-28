@@ -6,16 +6,16 @@ section{
     flex-direction: row;
 }
 
-a{
+.video_all a{
     text-decoration: none;
 }
 
-a:visited{
+.video_all a:visited{
     text-decoration: none;
     color: black;
 }
 
-.videoContainer_tuto{
+ .video_all .videoContainer_tuto{
     height: 100%;
     width: 70%;
 }

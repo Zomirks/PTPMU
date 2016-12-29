@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #FFF;
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
     display: flex;
     font-family: 'Quicksand', sans-serif;
 }
@@ -29,10 +30,7 @@ ul {
     width: 100%;
 }
 
-
-
 li a {
-    
     color: #FFF;
     text-decoration: none;
     width: 200px;
@@ -42,56 +40,43 @@ li a {
     font-size: 18pt;
 }
 
+
 /************** COULEUR DU MENU ****************/
 
-li a.titre_menu_accueil{
+li a.titre_menu_accueil {
     background-color: rgba(155, 217, 219, 0.8);
-    
 }
 
-
-
-li a.titre_menu_actualite{
-    background-color: rgba(186, 122, 245, 0.8) ;
+li a.titre_menu_actualite {
+    background-color: rgba(186, 122, 245, 0.8);
 }
 
-
-
-li a.titre_menu_vid{
+li a.titre_menu_vid {
     background-color: rgba(79, 111, 171, 0.8);
 }
 
-li a.titre_menu_contact{
+li a.titre_menu_contact {
     background-color: rgba(255, 175, 90, 0.8);
 }
 
-
-
-.logo{
+.logo {
     background-image: url(../img/O.png);
     width: 30px;
     height: 40px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 5px;
-    float:left;
+    float: left;
     background-size: cover;
 }
 
-
-
-
-.active{
+.active {
     width: 250px;
-    
 }
 
-.logo_active{
+.logo_active {
     margin-right: 100px;
 }
-
-
-
 
 .titrePage {
     display: block;
@@ -137,16 +122,20 @@ video {
     height: 100%;
 }
 
-.CGU{
+.CGU {
     display: block;
     margin-left: auto;
     margin-bottom: 40px;
-    
     text-align: center;
     color: #FFF;
-    
-   background: #444445;
+    background: rgba(0, 0, 0, .8);
     height: 50px;
     line-height: 50px;
     width: 60px;
+}
+
+.description {
+  background: rgba(0, 0, 0, .78);
+  color: aliceblue;
+  padding: 2em;
 }

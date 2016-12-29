@@ -1,6 +1,9 @@
 body{
     overflow-x:hidden;
+    
 }
+
+
 
 .titrePage {
     display: block;
@@ -34,6 +37,7 @@ section{
     display: flex;
     flex-direction: row;
     margin-left: 0;
+    margin-top: 30px;
     
     
     
@@ -48,26 +52,65 @@ section{
 
 .event{
     position: relative;
+    padding-bottom: 30px;
 }
 
-.event h2{
+
+
+.event .texte_page{
     position: absolute;
     color: #FFF;
     width: 90%;
-    height: 100px;
+    height: 50px;
     background: rgba(0,0,0,0.7);
     margin-top: -50px;
     transition: 0.5s;
+    z-index: 12;
+    overflow: hidden;
 }
 
-.event:hover h2{
+.event .texte_page h2{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+
+
+.event:hover .texte_page{
+    margin-top: -150px;
+    height: 150px;
     transition: 0.5s;
-    transform: translateY(-50px);
+    
+    z-index: 12;
 }
 
 .event img{
-    
+   box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 90%;
 }
 
+.CGU_section{
+    width: 7.5%;
+    margin-left: auto;
+    margin-top: 400px;
+    
+}
+
+.CGU_event{
+    position: fixed;
+    margin-left: auto;
+    margin-right: 17px;
+    
+    
+   
+    margin-bottom: 40px;
+    
+    text-align: center;
+    color: #FFF;
+    
+   background: #444445;
+    height: 50px;
+    line-height: 50px;
+    width: 60px;
+}

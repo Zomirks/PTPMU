@@ -11,8 +11,9 @@
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/style_tutoriel.css" rel="stylesheet">
    
-
-    <script src="./js/monjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+    <script src="./js/tutoriel.js"></script>
 </head>
 
 <body>
@@ -42,11 +43,11 @@
             <div class="logo"></div>
             <h1>Vidéos</h1>
         </div>
-        <section>
+        <section class="section_tuto">
             <div class="videoContainer_tuto">
-                <div class="video">
-                    <video controls></video>
-                </div>
+                
+                    <video class="video-js vjs-16-9" controls data-setup="{}" preload="none"></video>
+                
                 <div class="description_video">
                     <h2>Description de la vidéo</h2>
                     <p>
@@ -56,35 +57,45 @@
                 </div>
             </div>
             <div class="video_all">
-                <h1>Nos autres vidéos</h1>
+                
                 <div class="video_miniature">
                     <img src="img/sylvaindurif.jpg">
-                    <a href="#">
+                    <a  data-src="http://justinbasile.me/MMI/2016/media/video/tiob_trailer.mp4"
+                          data-poster="http://justinbasile.me/MMI/2016/media/img/tiob_poster.jpg"
+                          class="item__link" href="#" href="#">
                         <div class="mask">
                             <!--<h2> REGARDEZ LA VIDEO</h2>-->
                             <i class="fa fa-play fa-3x" aria-hidden="false"></i>
                         </div>
                     </a>
                     
+                    
                 </div>
                 <div class="video_miniature">
+                     <img src="img/sylvaindurif.jpg">
+                    <a data-src="http://justinbasile.me/MMI/2016/media/video/deepweb_trailer.mp4"
+                          data-poster="http://justinbasile.me/MMI/2016/media/img/deepweb_poster.jpg"
+                          class="item__link" href="#">
+                        <div class="mask">
+                            <!--<h2> REGARDEZ LA VIDEO</h2>-->
+                            <i class="fa fa-play fa-3x" aria-hidden="false"></i>
+                        </div>
+                    </a>
+                   
+                    
+                </div>
+               
+               <div class="video_miniature">
                     <img src="img/sylvaindurif.jpg">
-                    <a href="#">
+                    <a data-src="http://justinbasile.me/MMI/2016/media/video/citizne4_trailer.mp4"
+                      data-poster="http://justinbasile.me/MMI/2016/media/img/citizen4_poster.jpg"
+                      class="item__link" href="#">
                         <div class="mask">
                             <!--<h2> REGARDEZ LA VIDEO</h2>-->
                             <i class="fa fa-play fa-3x" aria-hidden="false"></i>
                         </div>
                     </a>
                     
-                </div>
-                <div class="video_miniature">
-                    <img src="img/sylvaindurif.jpg">
-                    <a href="#">
-                        <div class="mask">
-                            <!--<h2> REGARDEZ LA VIDEO</h2>-->
-                            <i class="fa fa-play fa-3x" aria-hidden="false"></i>
-                        </div>
-                    </a>
                     
                 </div>
                 
@@ -92,9 +103,7 @@
             </div>
             
             
-            <div class="CGU">
-            <h1>CGU</h1>
-        </div>
+           
         </section>
 
 
@@ -106,7 +115,7 @@
     <footer>
 
     </footer>
-
+    <script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
 </body>
 
 </html>

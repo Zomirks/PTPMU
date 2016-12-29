@@ -1,10 +1,20 @@
 
 
 
-section{
+.section_tuto{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
+
+
+
+.videoContainer_tuto{
+    position: relative;
+     width: 60%;
+}
+
 
 .video_all a{
     text-decoration: none;
@@ -15,21 +25,14 @@ section{
     color: black;
 }
 
- .video_all .videoContainer_tuto{
-    height: 100%;
-    width: 70%;
-}
-
-
-
-
 
 .video_all{
     height: 100%;
-    width: 35%;
+    width: 20%;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
 }
 
 .video_all h1{
@@ -61,11 +64,13 @@ section{
 
 .video_miniature:hover .mask{
     opacity: 1;
+   
   
 }
 
 .video_miniature:visited .mask{
     text-decoration: none;
+    
 }
 
 .video_miniature .fa-3x{
@@ -75,5 +80,11 @@ section{
     
     
 }
+
+.video-js{
+    width: 50px;
+}
+
+
 
 

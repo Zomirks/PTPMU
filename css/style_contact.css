@@ -35,14 +35,14 @@ section{
     
 }
 
-form{
+.coordonnees{
     display: flex;
     flex-direction: column;
     width: 35%;
     
 }
 
-form label{
+.coordonnees_title{
     margin: 20px 10px;
     text-align: center;
     color:#FFF;
@@ -55,19 +55,15 @@ form label{
 }
 
 
-
-
-input{
+.coordonnees_texte{
     width: 100%;
     height: 32px;
     color: #FFF;
     background-color: rgba(0,0,0,0.7);
     border: none;
-    padding-left: 20px;
-}
-
-input:focus{
-    outline: 2px solid #FFF;
+    padding-top: 14px;
+    
+    text-align: center;
 }
 
 .map{

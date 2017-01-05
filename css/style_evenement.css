@@ -1,53 +1,26 @@
 body{
     overflow-x:hidden;
-    
+
 }
 
-
-
-.titrePage {
-    display: block;
-    background-color: #c9a454;
-    width: 300px;
-    height: 75px;
-    margin-left: auto;
-    margin-top: 50px;
-    line-height: 75px;
-    font-size: 35pt;
-}
-
-.titrePage .logo {
-    margin: 0;
-    height: 60px;
-    width: 50px;
-    margin-top: 8px;
-    margin-left: 20px;
-    margin-right: 40px;
-}
-
-
-
-.titrePage h1{
-    font-size: 35px;
-}
 
 section{
     width: 88%;
-    
+
     display: flex;
     flex-direction: row;
     margin-left: 0;
     margin-top: 30px;
-    
-    
-    
+
+
+
 }
 
 .colonne{
     display: flex;
     flex-direction:column;
     width: 100%;
-   
+
 }
 
 .event{
@@ -95,7 +68,7 @@ section{
     width: 7.5%;
     margin-left: auto;
     margin-top: 400px;
-    
+
 }
 
 .date{
@@ -106,21 +79,21 @@ section{
 .event_paragraph{
      padding-left: 10px;
     padding-top: 19px;
-    
+
 }
 
 .CGU_event{
     position: fixed;
     margin-left: auto;
     margin-right: 17px;
-    
-    
-   
+
+
+
     margin-bottom: 40px;
-    
+
     text-align: center;
     color: #FFF;
-    
+
    background: #444445;
     height: 50px;
     line-height: 50px;

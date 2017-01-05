@@ -10,7 +10,8 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
 
-    <script src="./js/monjs.js"></script>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/carousel.js"></script>
 </head>
 
 <body>
@@ -38,13 +39,20 @@
     <main>
         <div class="titrePage">
             <div class="logo"></div>
-            <h1>Accueil</h1>
+            <img src="./img/logo.png" />
         </div>
         <section>
             <div class="videoContainer">
-                <div class="video">
-                    <video controls></video>
+                <div>
+                    <object type="application/x-shockwave-flash" width="650" height="400" data="https://www.youtube.com/v/ESUFJm_g42c&amp;hl=fr" allowfullscreen>
+		                  <param name="movie" value="https://www.youtube.com/v/ESUFJm_g42c&amp;hl=fr" />
+		                  <param name="wmode" value="transparent" />
+	                  </object>
+                    <!--[if lte IE 6 ]>
+	                  <embed src="https://www.youtube.com/v/ESUFJm_g42c&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="650" height="400"></embed>
+                    <![endif]-->
                 </div>
+
                 <div class="description">
                     <h2>Description de l'association</h2>
                     <p>
@@ -53,7 +61,25 @@
                     </p>
                 </div>
             </div>
-            <div class="agenda"></div>
+            <div class="nextEvent">
+                <div class="carousel">
+                    <div class="slide">
+                        <img alt="" src="./img/affiche_nuke.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img alt="" src="./img/bazartopie.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img alt="" src="./img/labyrinthe.png" />
+                    </div>
+                    <div class="slide">
+                        <img alt="" src="./img/bure.jpg" />
+                    </div>
+                </div>
+                <div class="prochainement">
+                    <p>Prochainement</p>
+                </div>
+            </div>
         </section>
 
         <div class="CGU">

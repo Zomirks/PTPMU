@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@font-face {
+  font-family: "Chocoleta";
+  src: url("../font/chocoleta.ttf");
+}
+
 body {
     width: 100vw;
     height: 100vh;
     background: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-attachment: fixed;
     display: flex;
     font-family: 'Quicksand', sans-serif;
 }
@@ -25,7 +32,7 @@ ul {
     flex-direction: column;
     height: 300px;
     margin-top: 20vh;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Chocoleta';
     justify-content: space-around;
     width: 100%;
 }
@@ -36,8 +43,8 @@ li a {
     width: 200px;
     height: 50px;
     display: block;
-    line-height: 50px;
-    font-size: 18pt;
+    line-height: 60px;
+    font-size: 20pt;
 }
 
 
@@ -85,8 +92,9 @@ li a.titre_menu_contact {
     height: 75px;
     margin-left: auto;
     margin-top: 50px;
-    line-height: 75px;
+    line-height: 85px;
     font-size: 35pt;
+    font-family: 'Chocoleta';
 }
 
 .titrePage .logo {
@@ -95,7 +103,13 @@ li a.titre_menu_contact {
     width: 50px;
     margin-top: 8px;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
+}
+
+.titrePage img {
+  margin-top: 7px;
+  height: 60px;
+  width: 180px;
 }
 
 section {
@@ -109,17 +123,48 @@ section {
 .videoContainer {
     width: 45%;
     height: 100%;
+    margin: 50px 0 0 0;
 }
 
-video {
+.nextEvent {
+    border: 5px solid #FFFFFF;
+    margin: 50px auto;
+    padding: 0;
+    width: 450px;
+    height: 600px;
+}
+
+.prochainement {
+  width: 450px;
+  background-color: rgba(0, 0, 0, .8);
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 730px;
+}
+
+.prochainement p {
+  color: aliceblue;
+  font-family: 'Quicksand';
+  font-size: 20pt;
+  text-align: center;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
     width: 100%;
-    height: 45%;
-    margin-bottom: 20px;
+    height: 100%;
 }
 
-.agenda {
-    width: 45%;
-    height: 100%;
+.slide {
+    margin: 0;
+    padding: 0;
+}
+
+.slide img {
+    width: 450px;
+    height: 600px;
 }
 
 .CGU {
@@ -135,7 +180,10 @@ video {
 }
 
 .description {
-  background: rgba(0, 0, 0, .78);
-  color: aliceblue;
-  padding: 2em;
+    background: rgba(0, 0, 0, .8);
+    color: aliceblue;
+    padding: 2em;
+    margin-top: 20px;
+    height: 120px;
+    font-family: 'Quicksand';
 }

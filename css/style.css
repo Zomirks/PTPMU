@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
 @font-face {
-  font-family: "Chocoleta";
-  src: url("../font/chocoleta.ttf");
+    font-family: "Chocoleta";
+    src: url("../font/chocoleta.ttf");
 }
 
 body {
@@ -107,9 +106,9 @@ li a.titre_menu_contact {
 }
 
 .titrePage img {
-  margin-top: 7px;
-  height: 60px;
-  width: 180px;
+    margin-top: 7px;
+    height: 60px;
+    width: 180px;
 }
 
 section {
@@ -117,11 +116,11 @@ section {
     margin-left: 4vw;
     display: flex;
     justify-content: space-around;
-    height: 80vh;
+    height: 90vh;
 }
 
 .videoContainer {
-    width: 45%;
+    width: 505px;
     height: 100%;
     margin: 50px 0 0 0;
 }
@@ -135,19 +134,19 @@ section {
 }
 
 .prochainement {
-  width: 450px;
-  background-color: rgba(0, 0, 0, .8);
-  height: 50px;
-  line-height: 50px;
-  position: absolute;
-  top: 730px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, .8);
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 730px;
 }
 
 .prochainement p {
-  color: aliceblue;
-  font-family: 'Quicksand';
-  font-size: 20pt;
-  text-align: center;
+    color: aliceblue;
+    font-family: 'Quicksand';
+    font-size: 20pt;
+    text-align: center;
 }
 
 .carousel {
@@ -184,6 +183,44 @@ section {
     color: aliceblue;
     padding: 2em;
     margin-top: 20px;
-    height: 120px;
+    height: 200px;
     font-family: 'Quicksand';
+}
+
+@media screen and (max-width: 1030px) {
+    section {
+        width: 100vw;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    .nextEvent {
+        display: none;
+    }
+    body {
+        height: auto;
+    }
+    ul {
+        margin-top: 0;
+        width: 60vw;
+        height: 140px;
+        flex-wrap: wrap;
+    }
+    .active {
+        width: 200px;
+    }
+    .logo_active {
+        margin-right: 20px;
+    }
+    header {
+        position: absolute;
+    }
+    main {
+        width: 100vw;
+    }
+    .videoContainer {
+      margin: 150px auto 50px auto;
+    }
 }

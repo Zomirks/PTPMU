@@ -187,14 +187,10 @@ section {
     background: rgba(0, 0, 0, .8);
     color: aliceblue;
     padding: 2em;
-    margin-top: 20px;
-    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: auto;
     font-family: 'Quicksand';
-}
-
-.section_tuto{
-    display: flex;
-    flex-direction: column;
 }
 
 @media screen and (max-width: 1030px) {
@@ -247,7 +243,7 @@ section {
 }
 
 .construction h2{
-    
+
     font-size: 20pt;
 }
 
@@ -255,16 +251,12 @@ section {
 
 
 html[data-useragent*='MSIE 10.0'] .title{
-    
+
     height: 70px;
 }
 
 
 html[data-useragent*='MSIE 10.0'] .colonne{
-    
-    display: inline;  
+
+    display: inline;
 }
-
-
-    
-  

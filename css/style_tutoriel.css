@@ -1,5 +1,6 @@
 body {
   height: auto;
+  overflow-x: hidden;
 }
 
 section {
@@ -8,11 +9,19 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     height: auto;
+    margin-left: 0;
+}
+
+.section_tuto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .videoContainer_tuto{
     position: relative;
      width: 505px;
+     margin-left: 20px;
 }
 
 

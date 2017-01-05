@@ -187,6 +187,11 @@ section {
     font-family: 'Quicksand';
 }
 
+.section_tuto{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 1030px) {
     section {
         width: 100vw;

@@ -1,18 +1,18 @@
-
-
-
-.section_tuto{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+body {
+  height: auto;
 }
 
-
+section {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+}
 
 .videoContainer_tuto{
     position: relative;
-     width: 60%;
+     width: 505px;
 }
 
 
@@ -59,31 +59,24 @@
     height: 150px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .video_miniature:hover .mask{
     opacity: 1;
-   
-  
+
+
 }
 
 .video_miniature:visited .mask{
     text-decoration: none;
-    
+
 }
 
 .video_miniature .fa-3x{
     text-align: center;
     color: aqua;
     width: 150px;
-    
-    
+
+
 }
-
-
-
-
-
-
-

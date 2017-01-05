@@ -5,6 +5,8 @@
     
 }
 
+
+
 .title{
     background-color: rgba(0, 0, 0, 0.7);
     color: #FFF;
@@ -14,6 +16,8 @@
     line-height: 50px;
     text-align: center;
     font-size: 35px;
+    font-family: 'Chocoleta';
+    padding-top: 12px;
 }
 
 .section{
@@ -52,8 +56,11 @@ section{
     line-height: 30px;
     font-size: 18pt;
     border-radius: 2px;
-    
+    font-family: 'Chocoleta';
+    padding-top: 10px;
 }
+    
+
 
 
 .coordonnees_texte{

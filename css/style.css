@@ -13,6 +13,7 @@ body {
     background-attachment: fixed;
     display: flex;
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -86,7 +87,7 @@ li a.titre_menu_contact {
 
 .titrePage {
     display: block;
-    background-color: #c9a454;
+    background-color: rgba(201, 164, 84, 0.8);
     width: 300px;
     height: 75px;
     margin-left: auto;
@@ -191,6 +192,11 @@ section {
     margin-bottom: 50px;
     height: auto;
     font-family: 'Quicksand';
+}
+
+.description h2{
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1030px) {

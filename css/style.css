@@ -77,7 +77,7 @@ li a.titre_menu_contact {
 }
 
 .active {
-    width: 250px;
+    width: 270px;
 }
 
 .logo_active {
@@ -178,6 +178,11 @@ section {
     width: 60px;
 }
 
+.CGU a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .description {
     background: rgba(0, 0, 0, .8);
     color: aliceblue;
@@ -228,4 +233,20 @@ section {
     .videoContainer {
       margin: 150px auto 50px auto;
     }
+}
+
+/* PAGE EN CONSTRUCTION */
+
+.construction{
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.construction img{
+    width: 250px;
+}
+
+.construction h2{
+    
+    font-size: 20pt;
 }

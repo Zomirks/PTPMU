@@ -47,10 +47,11 @@ section{
     text-align: center;
     color:#FFF;
     background-color: rgba(0,0,0,0.7);
-    width: 100px;
+    width: 150px;
     height: 30px;
     line-height: 30px;
     font-size: 18pt;
+    border-radius: 2px;
     
 }
 
@@ -61,14 +62,17 @@ section{
     color: #FFF;
     background-color: rgba(0,0,0,0.7);
     border: none;
-    padding-top: 14px;
-    
+    padding: 10px 0px 10px 0px;
+    line-height: 32px;
+    font-size: 15pt;
     text-align: center;
 }
 
+
+
 .map{
     margin-left: 70px;
-    
+    margin-top: 50px;
 }
 
 

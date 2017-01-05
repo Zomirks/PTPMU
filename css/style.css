@@ -250,3 +250,21 @@ section {
     
     font-size: 20pt;
 }
+
+/* Style pour IE */
+
+
+html[data-useragent*='MSIE 10.0'] .title{
+    
+    height: 70px;
+}
+
+
+html[data-useragent*='MSIE 10.0'] .colonne{
+    
+    display: inline;  
+}
+
+
+    
+  
